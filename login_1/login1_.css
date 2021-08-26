@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+    font-family: 'Lato', sans-serif;
+    
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    background:url('back1.jfif') no-repeat center ;
+    background-position: center;
+    background-size: 2000px 800px;
+    background-attachment: fixed;
+    position:absolute;
+}
+.form-box{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: rgb(250, 248, 248);
+    padding: 5%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 15px 25px rgba(10, 10, 10, 0.5);
+
+}
+.button-box{
+    width: 245px;
+    margin: 0px -10px;
+    position: relative;
+    box-shadow: 0 0 20px 9px #0e07071f;
+    border-radius: 30px;
+}
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    font-size: 15px;
+    font-weight: bold;
+}
+#btn{
+    top: 0;
+    left:0;
+    position: absolute;
+    width: 120px;
+    height: 100%;
+    background: linear-gradient(to right, #2afeb7,#08c792);
+    border-radius: 30px;
+    transition: .5s;
+}
+.input-group{
+    top: 180px;
+    position: absolute;
+    width: 200px;
+    transition: .5s;  
+}
+
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+.submit-btn{
+    width: 85%;
+    padding: 10px 25px;
+    cursor: pointer;
+    display: block;
+    margin: 50px 16px;
+    background: linear-gradient(to right, #2afeb7,#08c792);
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+.check-box{
+    margin: 30px 10px 30px 0;
+}
+span{
+    color: #777;
+    font-size: 12px;
+}
+#login{
+    left: 90px;
+}
+#register{
+    left: 450px;
+}
+.forgot-pw{
+    color: inherit;
+}

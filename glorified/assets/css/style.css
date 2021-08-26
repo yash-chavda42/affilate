@@ -126,11 +126,10 @@ a:focus, .btn:focus {
 	text-decoration: none;
 	outline: none;
 }
-a:hover,a:active {
-	color: pink;
+a:hover, a:active {
+	color: var(--thm-color);
 	text-decoration: none;
 	outline: 0;
-	font-size: 20px;
 }
 *, ::before, ::after {
 	-moz-box-sizing: border-box;
@@ -142,7 +141,7 @@ span {
 }
 a, button, input {
 	outline: medium none;
-	color: white;
+	color: inherit;
 }
 dl, ol, ul {
 	padding: 0;
@@ -2207,6 +2206,7 @@ button, input, textarea:focus {
 .atf-blog-details-slider .slick-slide-in{
 	margin-left:-7px;
 	margin-right:-7px;
+	
 }
 .atf-post-pagination {
 	margin-top: 30px;

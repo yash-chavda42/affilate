@@ -1975,8 +1975,21 @@ button, input, textarea:focus {
 .atf-brand-area .owl-controls {
 	display:none;
 }
-.atf-brand-active{ text-align: center }
-.atf-brand-active > a { display:inline-block}
+.atf-brand-activead1{  margin: 17px 10px; height: 150px; width: 150px;}
+.atf-brand-activead1 > a { display:inline-block}
+.atf-brand-activem1{  margin: 10px 10px; height: 180px; width: 180px;}
+.atf-brand-activem1 > a { display:inline-block}
+.atf-brand-activef1{  margin: 10px 10px; height: 180px; width: 180px;}
+.atf-brand-activef1 > a { display:inline-block}
+.atf-brand-activen1{  margin: 15px 10px; height: 190px; width: 190px;}
+.atf-brand-activen1 > a { display:inline-block}
+.atf-brand-activea1{  margin: 23px 10px; height: 160px; width: 160px;}
+.atf-brand-activea1 > a { display:inline-block}
+.atf-brand-activer1{  margin: 23px 10px; height: 165px; width: 165px;}
+.atf-brand-activer1 > a { display:inline-block}
+.atf-brand-activep1{  margin: 35px 10px; height: 160px; width: 160px;}
+.atf-brand-activep1 > a { display:inline-block}
+
 /*
 * ----------------------------------------------------------------------------------------
 * END COMPANY BRAND LOGO DESIGN 
